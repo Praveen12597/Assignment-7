@@ -10,12 +10,5 @@ function init() {
 
 function square() {
 	sqr = num.value*num.value;
-	output.innerHTML = sqr;
-}
-
-function clear() {
-	// document.getElementById("#number").value = "";
-	console.log("ghfhgfhf");
-	num.value = a;
-	output.innerHTML = a;
+	output.innerHTML = "Square of " + num.value + " = " + sqr;
 }
